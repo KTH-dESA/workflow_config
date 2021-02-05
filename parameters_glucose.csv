@@ -1,0 +1,9 @@
+name,group,indexes,min_value,max_value,dist,interpolation_index,action
+AnnualEmissionLimit,1,"Globe,CO2EQ",40,50,unif,YEAR,interpolate
+AccumulatedAnnualDemand,2,"Globe,STE",2000,3000,unif,YEAR,interpolate
+AccumulatedAnnualDemand,3,"Globe,PAP",500,600,unif,YEAR,interpolate
+AccumulatedAnnualDemand,4,"Globe,ALU",200,300,unif,YEAR,interpolate
+AccumulatedAnnualDemand,5,"Globe,PET",2000,3000,unif,YEAR,interpolate
+SpecifiedAnnualDemand,6,"Globe,C1_F_CLS",110,130,unif,YEAR,interpolate
+SpecifiedAnnualDemand,7,"Globe,C1_F_HEA_I",50,70,unif,YEAR,interpolate
+SpecifiedAnnualDemand,8,"Globe,C1_F_HEA_R",90,130,unif,YEAR,interpolate

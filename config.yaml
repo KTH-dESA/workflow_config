@@ -1,0 +1,22 @@
+# Populate the scenarios.csv file with a list of scenario names
+# and path (description optional) to the model datapackage
+datapackage: config/scenarios_glucose.csv
+
+# Tell the workflow which model results to plot
+result_params: config/results.csv
+agg_results: config/agg_results_glucose.csv
+
+# Filetype options: 'csv' or 'parquet' or 'feather'
+filetype: csv
+
+# Define the uncertain parameters used to define the Monte Carlo sample
+parameters: config/parameters_glucose.csv
+
+# Path to the OSeMOSYS model file
+model_file: ../osemosys/OSeMOSYS_GNU_MathProg/src/osemosys_fast.txt
+
+# Choose a solver, choices: 'cbc' or 'gurobi'
+solver: gurobi
+
+# Sampling - how large should the sample be?
+replicates: 100
